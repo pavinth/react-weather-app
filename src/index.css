@@ -154,3 +154,39 @@ body {
     width: 100%;
   }
 }
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .app.warm {
+    width: 100%;
+  }
+  .app.cold {
+    width: 100%;
+  }
+  .main {
+    width: 100%;
+  }
+  .search-box {
+    width: 100%;
+  }
+  .search-box .search-bar {
+    width: 100%;
+  }
+  .search-box .search-bar:focus {
+    width: 100%;
+  }
+  .location-box .location {
+    width: 100%;
+  }
+  .location-box .date {
+    width: 100%;
+  }
+  .weather-box {
+    width: 100%;
+  }
+  .weather-box .temp {
+    width: 40%;
+  }
+  .weather-box .weather {
+    width: 100%;
+  }
+}
