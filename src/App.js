@@ -63,8 +63,7 @@ function App() {
           : "app"
       }
     >
-      <div className="appHeader"></div>
-      <main>
+      <main className="main">
         <div className="search-box">
           <input
             type="text"
