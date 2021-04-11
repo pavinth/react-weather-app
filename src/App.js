@@ -64,11 +64,12 @@ function App() {
       }
     >
       <main className="main">
+        <h1 className="app-name">Weather App</h1>
         <div className="search-box">
           <input
             type="text"
             className="search-bar"
-            placeholder="Search..."
+            placeholder="Enter City Name..."
             onChange={(e) => setQuery(e.target.value)}
             value={query}
             onKeyPress={search}
